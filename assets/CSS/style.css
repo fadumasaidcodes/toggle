@@ -1,0 +1,194 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+/* .row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+} */
+
+.resetRow {
+  white-space: pre-wrap;
+  height: 20px;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Added Reset Button CSS Code */
+
+.resetBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #d50606;
+  color: white;
+  margin: 20px 20px 20px 20px;
+}
+
+.resetBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Added Save All Button CSS */
+
+.saveAllBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #d50606;
+  color: white;
+  margin: 20px 20px 20px 20px;
+}
+.saveAllBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.mondayBtn, .tuesdayBtn, .wednesdayBtn, .thursdayBtn, .fridayBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #d50606;
+  color: white;
+  margin: 20px 20px 20px 20px;
+}
+
+.mondayBtn .tuesdayBtn .wednesdayBtn .thursdayBtn .fridayBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+/* .modal-header, h4, .close {
+  background-color: #5cb85c;
+  color:white !important;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-footer {
+  background-color: #f9f9f9;
+} */
+
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-header button {
+  color: white;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-group-toggle label:not(:first-of-type) {
+  border-left: none;
+}
+
+.btn-group-toggle label:not(:first-of-type)::before {
+  border-left: none;
+}
+
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+@media only screen and (max-width: 1204px) and (min-width: 770px)  {
+	.follow-sm{max-width: 40% !important;}
+	.footer-section .container {
+		    max-width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+	}
+	.newss{margin-right:0% !important;}
+}
+
+@media only screen and (max-width: 660px) and (min-width: 400px)  {
+	.saveAllBtn {
+    margin: -25% -50% 0px 0px !important;
+}
+}
+@media only screen and (max-width: 770px) {
+	.footer-section{margin: -5% 0%;}
+.follow-sm h5{ font-size: 2.5rem;}
+.hour{width:12% !important;}
+.follow-sm { margin: 0% 10% }
+.past, .present, .future{width:65% !important;}
+.btnn{width:20% !important;}
+.plan{text-align:left !important}
+
+.plan h5{font-size: 2.5rem; margin-right:4%;}
+.plan{margin: 8% 6%;}
+.resetBtn{margin: 0px 70% 0px 0px;}
+.saveAllBtn{margin: -35% -50% 0px 0px;}
+.newss { margin: 5% 7%; }
+.news {font-size: 1.75rem}
+.appp p { font-size: 1.5rem;}
+.appp h3 { font-size: 2.5rem;}
+.appp{    margin: 0% 10%;}
+}
